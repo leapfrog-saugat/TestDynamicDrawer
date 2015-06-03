@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD60764949BEF2351680330 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4637DEDDDBC5D9C5578E78F2 /* libPods.a */; };
+		CD402FD61B1C13A9006FF62E /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD402FD51B1C13A9006FF62E /* MenuViewController.m */; };
 		CD9C2DB31B1C0AFC0026D72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C2DB21B1C0AFC0026D72D /* main.m */; };
 		CD9C2DB61B1C0AFC0026D72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C2DB51B1C0AFC0026D72D /* AppDelegate.m */; };
-		CD9C2DB91B1C0AFC0026D72D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C2DB81B1C0AFC0026D72D /* ViewController.m */; };
-		CD9C2DBC1B1C0AFC0026D72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9C2DBA1B1C0AFC0026D72D /* Main.storyboard */; };
 		CD9C2DBE1B1C0AFC0026D72D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9C2DBD1B1C0AFC0026D72D /* Images.xcassets */; };
 		CD9C2DC11B1C0AFC0026D72D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9C2DBF1B1C0AFC0026D72D /* LaunchScreen.xib */; };
 		CD9C2DCD1B1C0AFC0026D72D /* TestDynamicDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C2DCC1B1C0AFC0026D72D /* TestDynamicDrawerTests.m */; };
+		CDEC985B1B1DB81A004C4EA9 /* LoginScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC985A1B1DB81A004C4EA9 /* LoginScreenVC.m */; };
+		CDEC985F1B1DB831004C4EA9 /* RedScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC985E1B1DB831004C4EA9 /* RedScreenVC.m */; };
+		CDEC98631B1DB84F004C4EA9 /* GreenScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98621B1DB84F004C4EA9 /* GreenScreenVC.m */; };
+		CDEC98671B1DB89B004C4EA9 /* HomeScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC98661B1DB89B004C4EA9 /* HomeScreenVC.m */; };
+		CDEC986A1B1DC991004C4EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEC98681B1DC991004C4EA9 /* Main.storyboard */; };
+		CDEC986E1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC986D1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +33,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4637DEDDDBC5D9C5578E78F2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D312EF6935D90320F0ED13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD402FD41B1C13A9006FF62E /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		CD402FD51B1C13A9006FF62E /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		CD9C2DAD1B1C0AFC0026D72D /* TestDynamicDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDynamicDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C2DB11B1C0AFC0026D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9C2DB21B1C0AFC0026D72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD9C2DB41B1C0AFC0026D72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD9C2DB51B1C0AFC0026D72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD9C2DB71B1C0AFC0026D72D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD9C2DB81B1C0AFC0026D72D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD9C2DBB1B1C0AFC0026D72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD9C2DBD1B1C0AFC0026D72D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD9C2DC01B1C0AFC0026D72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD9C2DC61B1C0AFC0026D72D /* TestDynamicDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDynamicDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C2DCB1B1C0AFC0026D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9C2DCC1B1C0AFC0026D72D /* TestDynamicDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDynamicDrawerTests.m; sourceTree = "<group>"; };
+		CDEC98591B1DB81A004C4EA9 /* LoginScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreenVC.h; sourceTree = "<group>"; };
+		CDEC985A1B1DB81A004C4EA9 /* LoginScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreenVC.m; sourceTree = "<group>"; };
+		CDEC985D1B1DB831004C4EA9 /* RedScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedScreenVC.h; sourceTree = "<group>"; };
+		CDEC985E1B1DB831004C4EA9 /* RedScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedScreenVC.m; sourceTree = "<group>"; };
+		CDEC98611B1DB84F004C4EA9 /* GreenScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenScreenVC.h; sourceTree = "<group>"; };
+		CDEC98621B1DB84F004C4EA9 /* GreenScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenScreenVC.m; sourceTree = "<group>"; };
+		CDEC98651B1DB89B004C4EA9 /* HomeScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenVC.h; sourceTree = "<group>"; };
+		CDEC98661B1DB89B004C4EA9 /* HomeScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenVC.m; sourceTree = "<group>"; };
+		CDEC98691B1DC991004C4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TestDynamicDrawer/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDEC986C1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsDrawerContainerVC.h; sourceTree = "<group>"; };
+		CDEC986D1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsDrawerContainerVC.m; sourceTree = "<group>"; };
+		ED6A0B57D44BE4C1C007A147 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD60764949BEF2351680330 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +80,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1571E2123D76E35A5867A331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4637DEDDDBC5D9C5578E78F2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA6463DDE67400F56F113172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A0B57D44BE4C1C007A147 /* Pods.debug.xcconfig */,
+				C1D312EF6935D90320F0ED13 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD402FD31B1C1396006FF62E /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD402FD41B1C13A9006FF62E /* MenuViewController.h */,
+				CD402FD51B1C13A9006FF62E /* MenuViewController.m */,
+			);
+			name = MenuVC;
+			sourceTree = "<group>";
+		};
 		CD9C2DA41B1C0AFC0026D72D = {
 			isa = PBXGroup;
 			children = (
 				CD9C2DAF1B1C0AFC0026D72D /* TestDynamicDrawer */,
 				CD9C2DC91B1C0AFC0026D72D /* TestDynamicDrawerTests */,
 				CD9C2DAE1B1C0AFC0026D72D /* Products */,
+				AA6463DDE67400F56F113172 /* Pods */,
+				1571E2123D76E35A5867A331 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +129,14 @@
 		CD9C2DAF1B1C0AFC0026D72D /* TestDynamicDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				CDEC986B1B1DD0AC004C4EA9 /* DynamicsDrawerContainerVC */,
 				CD9C2DB41B1C0AFC0026D72D /* AppDelegate.h */,
 				CD9C2DB51B1C0AFC0026D72D /* AppDelegate.m */,
-				CD9C2DB71B1C0AFC0026D72D /* ViewController.h */,
-				CD9C2DB81B1C0AFC0026D72D /* ViewController.m */,
-				CD9C2DBA1B1C0AFC0026D72D /* Main.storyboard */,
+				CD402FD31B1C1396006FF62E /* MenuVC */,
+				CDEC98561B1DB7D0004C4EA9 /* LoginScreenVC */,
+				CDEC98641B1DB882004C4EA9 /* HomeScreenVC */,
+				CDEC98581B1DB800004C4EA9 /* GreenScreenVC */,
+				CDEC98571B1DB7DD004C4EA9 /* RedScreenVC */,
 				CD9C2DBD1B1C0AFC0026D72D /* Images.xcassets */,
 				CD9C2DBF1B1C0AFC0026D72D /* LaunchScreen.xib */,
 				CD9C2DB01B1C0AFC0026D72D /* Supporting Files */,
@@ -119,6 +170,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CDEC98561B1DB7D0004C4EA9 /* LoginScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98591B1DB81A004C4EA9 /* LoginScreenVC.h */,
+				CDEC985A1B1DB81A004C4EA9 /* LoginScreenVC.m */,
+			);
+			name = LoginScreenVC;
+			sourceTree = "<group>";
+		};
+		CDEC98571B1DB7DD004C4EA9 /* RedScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98681B1DC991004C4EA9 /* Main.storyboard */,
+				CDEC985D1B1DB831004C4EA9 /* RedScreenVC.h */,
+				CDEC985E1B1DB831004C4EA9 /* RedScreenVC.m */,
+			);
+			name = RedScreenVC;
+			sourceTree = "<group>";
+		};
+		CDEC98581B1DB800004C4EA9 /* GreenScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98611B1DB84F004C4EA9 /* GreenScreenVC.h */,
+				CDEC98621B1DB84F004C4EA9 /* GreenScreenVC.m */,
+			);
+			name = GreenScreenVC;
+			sourceTree = "<group>";
+		};
+		CDEC98641B1DB882004C4EA9 /* HomeScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC98651B1DB89B004C4EA9 /* HomeScreenVC.h */,
+				CDEC98661B1DB89B004C4EA9 /* HomeScreenVC.m */,
+			);
+			name = HomeScreenVC;
+			sourceTree = "<group>";
+		};
+		CDEC986B1B1DD0AC004C4EA9 /* DynamicsDrawerContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC986C1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.h */,
+				CDEC986D1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.m */,
+			);
+			name = DynamicsDrawerContainerVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9C2DD01B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawer" */;
 			buildPhases = (
+				A980E54B9B48F56448EE04E3 /* Check Pods Manifest.lock */,
 				CD9C2DA91B1C0AFC0026D72D /* Sources */,
 				CD9C2DAA1B1C0AFC0026D72D /* Frameworks */,
 				CD9C2DAB1B1C0AFC0026D72D /* Resources */,
+				D9328099026B685D90CDB3E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +267,7 @@
 				TargetAttributes = {
 					CD9C2DAC1B1C0AFC0026D72D = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = N7DN9W93BF;
 					};
 					CD9C2DC51B1C0AFC0026D72D = {
 						CreatedOnToolsVersion = 6.3;
@@ -199,7 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9C2DBC1B1C0AFC0026D72D /* Main.storyboard in Resources */,
+				CDEC986A1B1DC991004C4EA9 /* Main.storyboard in Resources */,
 				CD9C2DC11B1C0AFC0026D72D /* LaunchScreen.xib in Resources */,
 				CD9C2DBE1B1C0AFC0026D72D /* Images.xcassets in Resources */,
 			);
@@ -214,14 +314,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A980E54B9B48F56448EE04E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9328099026B685D90CDB3E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD9C2DA91B1C0AFC0026D72D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9C2DB91B1C0AFC0026D72D /* ViewController.m in Sources */,
+				CDEC985F1B1DB831004C4EA9 /* RedScreenVC.m in Sources */,
+				CDEC985B1B1DB81A004C4EA9 /* LoginScreenVC.m in Sources */,
+				CDEC98671B1DB89B004C4EA9 /* HomeScreenVC.m in Sources */,
+				CDEC98631B1DB84F004C4EA9 /* GreenScreenVC.m in Sources */,
 				CD9C2DB61B1C0AFC0026D72D /* AppDelegate.m in Sources */,
+				CD402FD61B1C13A9006FF62E /* MenuViewController.m in Sources */,
 				CD9C2DB31B1C0AFC0026D72D /* main.m in Sources */,
+				CDEC986E1B1DD0F0004C4EA9 /* DynamicsDrawerContainerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +382,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CD9C2DBA1B1C0AFC0026D72D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD9C2DBB1B1C0AFC0026D72D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD9C2DBF1B1C0AFC0026D72D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CD9C2DC01B1C0AFC0026D72D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CDEC98681B1DC991004C4EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEC98691B1DC991004C4EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,9 +486,12 @@
 		};
 		CD9C2DD11B1C0AFC0026D72D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6A0B57D44BE4C1C007A147 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestDynamicDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +499,12 @@
 		};
 		CD9C2DD21B1C0AFC0026D72D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D312EF6935D90320F0ED13 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestDynamicDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +563,7 @@
 				CD9C2DD21B1C0AFC0026D72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD9C2DD31B1C0AFC0026D72D /* Build configuration list for PBXNativeTarget "TestDynamicDrawerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +572,7 @@
 				CD9C2DD51B1C0AFC0026D72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
